@@ -10,7 +10,25 @@
 //This set uses the default labels and adds Metro-vehicles. 
 
 railtypetable {
-    RAIL,
+  nAAN: [nAAN, NAAN, RAIL],
+
+  NAAN: [NAAN, RAIL],
+  dc_3kv_cape_A: [NAAD, NAAE, SAAD, SAAE, ELRL],
+  ac_25kv_cape_A: [NAAa, NAAA, NAAE, SAAa, SAAA, SAAE, ELRL],
+  ac_50kv_cape_A: [NAAA, NAAE, SAAA, SAAE, ELRL],
+
+  bAAN: [bAAN, BAAN, SAAN, RAIL],
+  dc_1500v_indian_A: [bAAd, BAAd, BAAD, BAAE, SAAd, SAAD, SAAE, ELRL],
+  ac_25kv_indian_A: [bAAA, BAAE, BAAD, SAAA, SAAE, ELRL],
+
+  BAAN: [BAAN, SAAN, RAIL],
+  dc_1500v_russian_A: [BAAD, BAAE, BAAA, SAAd, SAAD, SAAE, ELRL],
+  ac_25kv_russian_A: [BAAA, BAAE, BAAD, SAAA, SAAE, ELRL],
+
+  SAAN: [SAAN, RAIL],
+  dc_3kv_standard_A: [SAAD, SAAE, ELRL],
+  ac_25kv_standard_A: [SAAA, SAAE, ELRL],
+  RAIL,
 	ELRL,
 	MONO,
 	MGLV,
